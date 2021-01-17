@@ -24,9 +24,6 @@ export default class Map extends Component {
     render() {
         return (
             <div>
-                <div className="header">
-                    <h1>Road Safety</h1>
-                </div>
 
                 <div>
                     <FormGroup className="input-box">
