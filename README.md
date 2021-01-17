@@ -3,8 +3,8 @@
 After cloning this repository, navigate to the root of the project. Make sure you have Node and NPM installed.
 
 Type:
-`cd frontend`
-`npm install`
+`cd frontend`  
+`npm install`  
 
 When that finishes, type:
 `npm start`
@@ -26,11 +26,11 @@ On Windows:
 `.\env\Scripts\activate`
 
 To install the required packages, type:  
-`pip install -r requirements.txt`
+`pip install -r requirements.txt`  
 
 
 To start the server, type the following:
-`cd road_safety`
+`cd road_safety`  
 `python manage.py runserver`
 
 Now you should be able to use the zip code search!
