@@ -1,3 +1,10 @@
 from django.contrib import admin
+from maps.models import Accidents, Scores
 
-# Register your models here.
+class AccidentsAdmin(admin.ModelAdmin):
+    pass
+admin.site.register(Accidents, AccidentsAdmin)
+
+class ScoresAdmin(admin.ModelAdmin):
+    pass
+admin.site.register(Scores, ScoresAdmin)

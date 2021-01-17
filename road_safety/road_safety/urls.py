@@ -17,6 +17,7 @@ from django.conf.urls import url, include
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^map/', include('maps.urls')),
+    url(r'^maps/', include('maps.urls')),
     url(r'^admin/', admin.site.urls),
+
 ]

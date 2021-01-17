@@ -1,5 +1,5 @@
+import Map from './Map'
 import './App.css';
-import Map from './components/Map'
 import {
   BrowserRouter as Router,
   Switch,
@@ -7,7 +7,7 @@ import {
   Link
 } from "react-router-dom";
 import { Navbar, Nav } from 'react-bootstrap';
-
+import logo from './logo.png';
 
 
 
@@ -16,7 +16,7 @@ function App() {
     <Router>
       <div>
         <Navbar bg="dark" variant="dark">
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand href="#home"><img className="logo" src={logo}/></Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link>
               <Link to="/">Home</Link>
@@ -45,7 +45,7 @@ function App() {
         </Switch>
       </div>
     </Router>
-  );
+  )
 }
 
 function Home() {

@@ -5,17 +5,50 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.mapContainer {
-  width: 80%;
-  height: 40%;
-  position: absolute;
+/* .mapContainer {
+  top: 20px;
+} */
+
+
+a {
+  color: white
+}
+a:hover {
+  color: rgb(202, 202, 202)
+}
+
+.logo {
+  width: 75px;
+}
+
+.mapboxgl-map {
+  overflow: visible;
+  margin: 0 auto;
+  height: 90%
 }
 
 .input-box {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  line-height: 100%;
+}
+
+.input-box input {
+  height: 100%;
+  margin-left: 20px;
 }
 
 .one-line-text {
   white-space: nowrap;
+}
+
+.mapboxgl-ctrl-bottom-left {
+  display: none;
+}
+
+.mapboxgl-ctrl-bottom-right {
+  display: none;
 }
