@@ -1,0 +1,16 @@
+certifi==2020.12.5
+chardet==4.0.0
+click==7.1.2
+decorator==4.4.2
+Django==2.2.17
+django-cors-headers==3.6.0
+future==0.18.2
+geocoder==1.38.1
+idna==2.10
+psycopg2==2.8.6
+pytz==2020.5
+ratelim==0.1.6
+requests==2.25.1
+six==1.15.0
+sqlparse==0.4.1
+urllib3==1.26.2
